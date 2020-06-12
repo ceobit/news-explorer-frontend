@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .nav-container__link_first {
+    order: -1;
+  }
+}

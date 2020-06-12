@@ -1,0 +1,38 @@
+.article__button {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  left: calc(100% - 64px);
+  top: 24px;
+  border-radius: 10px;
+}
+
+.article__button:hover .article__icon_delete {
+  -webkit-mask: url(../../../images/trash-active.png);
+  background-color: #000;
+  height: 19px;
+  width: 14px;
+  margin: 0 auto;
+  display: block;
+  -webkit-mask-position: center;
+  -webkit-mask-size: cover;
+}
+
+
+.article__button:hover .article__icon_save {
+  -webkit-mask: url(../../../images/hover-flag.svg);
+  background-color: #000;
+  height: 19px;
+  width: 14px;
+  margin: 0 auto;
+  display: block;
+  -webkit-mask-position: center;
+  -webkit-mask-size: cover;
+}
+
+.article__button:focus {
+
+}

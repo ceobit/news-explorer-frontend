@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+  .nav-container__link_third {
+    order: 1;
+    width: 100%;
+  }
+}
+
+

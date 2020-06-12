@@ -1,0 +1,10 @@
+@import url(__container/footer__container.css);
+@import url(__copyright/footer__copyright.css);
+@import url(_is-opened/footer_is-opened.css);
+@import url(__social/footer__social.css);
+@import url(__social-icon/footer__social-icon.css);
+
+.footer {
+  background-color: #fff;
+  width: 100%;
+}

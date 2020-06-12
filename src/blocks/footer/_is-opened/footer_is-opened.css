@@ -1,0 +1,10 @@
+.footer .footer_is-opened {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .footer .footer_is-opened {
+    display: flex;
+  }
+}
+

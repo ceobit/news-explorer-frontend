@@ -1,0 +1,1 @@
+import '../pages/account/account.css';

@@ -1,0 +1,38 @@
+@import url(_active/nav-container__link_active.css);
+@import url(_auth/nav-container__link_auth.css);
+@import url(_hidden/nav-container__link_hidden.css);
+@import url(_black/nav-container__link_black.css);
+@import url(_first/nav-container__link_first.css);
+@import url(_third/nav-container__link_third.css);
+
+.nav-container__link {
+  margin: 0 32px 0 0;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: Roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125em;
+  line-height: 24px;
+  color: #fff;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .nav-container__link {
+    margin: 0 32px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-container__link {
+    margin: 0;
+  }
+}
+
+

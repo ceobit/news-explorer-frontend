@@ -1,0 +1,15 @@
+.nav-container__link_auth {
+  display: block;
+  text-align: center;
+  border: 1px solid #fff;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 100px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-container__link_auth {
+    width: 100%;
+    padding: 15px 0;
+  }
+}

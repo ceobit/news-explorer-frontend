@@ -1,0 +1,9 @@
+@import url(__container/about-author__container.css);
+@import url(__photo/about-author_photo.css);
+@import url(__text/about-author__text.css);
+@import url(__description/about-author__description.css);
+
+.about-author {
+  width: 100%;
+  background-color: #fff;
+}

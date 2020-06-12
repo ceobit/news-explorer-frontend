@@ -1,0 +1,21 @@
+.result__title {
+  margin: 40px auto 0 auto;
+  font-family: 'RobotoSlab',  Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.625em;
+  line-height: 30px;
+  color: #1a1b22;
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 1023px) {
+  .result__title {
+    margin: 20px auto 0 auto;
+  }
+}

@@ -1,0 +1,5 @@
+
+.article__icon_delete {
+  -webkit-mask: url(../../../../images/trash.png);
+  background-color: rgba(26, 27, 34, 0.5);
+}

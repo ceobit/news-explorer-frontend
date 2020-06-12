@@ -1,0 +1,21 @@
+.about-author__container {
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  width: calc(100% - 208px);
+}
+
+@media screen and (max-width: 1023px) {
+  .about-author__container {
+    width: calc(100% - 80px);
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-author__container {
+    flex-direction: column;
+    width: calc(100% - 48px);
+    padding-bottom: 10px;
+  }
+}

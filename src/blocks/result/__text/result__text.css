@@ -1,0 +1,26 @@
+.result__text {
+  position: relative;
+  margin: 15px auto;
+  font-family: 'Roboto',  Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125em;
+  line-height: 24px;
+  color: #b6bcbf;
+  width: 20%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .result__text {
+    width: 40%;
+    margin: 10px auto;
+  }
+}
+
+

@@ -1,0 +1,12 @@
+.popup__error {
+  display: none;
+  position: relative;
+  margin-top: 10px;
+  animation: errors .1s ease-in-out;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ff0000;
+}

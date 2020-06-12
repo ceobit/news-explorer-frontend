@@ -1,0 +1,29 @@
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0 104px;
+  height: 80px;
+}
+
+
+@media screen and (max-width: 1023px) {
+  .footer__container {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__container {
+    flex-wrap: wrap;
+    margin: 0 15px;
+    height: 100%;
+  }
+
+  .footer__container .footer__nav-container {
+    display: flex;
+    order: -1;
+    width: 100%;
+  }
+}

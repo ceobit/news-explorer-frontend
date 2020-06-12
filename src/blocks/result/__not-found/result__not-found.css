@@ -1,0 +1,6 @@
+.result__not-found {
+  display: none;
+  flex-direction: column;
+  padding: 80px 0;
+  width: 100%;
+}

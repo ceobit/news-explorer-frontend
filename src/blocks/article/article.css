@@ -1,0 +1,20 @@
+@import url(__button/article__button.css);
+@import url(__content/article__content.css);
+@import url(__date/article__date.css);
+@import url(__icon/article__icon.css);
+@import url(__image/article__image.css);
+@import url(__source/article__source.css);
+@import url(__text/article__text.css);
+@import url(__title/article__title.css);
+@import url(__message/article__message.css);
+@import url(__category/article__category.css);
+
+.article {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+}

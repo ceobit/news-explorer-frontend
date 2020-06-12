@@ -1,0 +1,20 @@
+@import url(__container/header__container.css);
+@import url(__logo/header__logo.css);
+@import url(__menu/header__menu.css);
+@import url(_is-opened/header_is-opened.css);
+@import url(_black/header_black.css);
+
+.header {
+  border-bottom: 1px solid rgba(196, 196, 196, .01);
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, .2);
+  width: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+  .header {
+    border-bottom: none;
+    box-shadow: none;
+    padding: 15px 0;
+  }
+}

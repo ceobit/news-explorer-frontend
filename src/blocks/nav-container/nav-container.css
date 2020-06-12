@@ -1,0 +1,25 @@
+@import url(__link/nav-container__link.css);
+@import url(__arrow/nav-container__arrow.css);
+
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  /*margin: 0 15px;*/
+}
+
+.nav-container :last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-container {
+    display: none;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 25px 15px 0 15px;
+  }
+}

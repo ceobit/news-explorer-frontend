@@ -1,0 +1,25 @@
+@import url(_black/header__logo_black.css);
+@import url(_white/header__logo_white.css);
+
+.header__logo {
+  font-family: 'RobotoSlab', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25em;
+  line-height: 24px;
+  margin: 0;
+}
+
+
+
+/*@media screen and (max-width: 320px) {*/
+/*  .header__container {*/
+/*    margin: 0 40px;*/
+/*  }*/
+/*}*/
+

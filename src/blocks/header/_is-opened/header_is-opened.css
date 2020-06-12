@@ -1,0 +1,10 @@
+.header .header_is-opened {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header .header_is-opened {
+    display: flex;
+  }
+}
+

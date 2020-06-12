@@ -1,0 +1,24 @@
+.search__title {
+  font-family: 'RobotoSlab', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.75em;
+  line-height: 64px;
+  color: #fff;
+  width: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .search__title {
+    font-size: 36px;
+    line-height: 40px;
+    width: 60%;
+  }
+}

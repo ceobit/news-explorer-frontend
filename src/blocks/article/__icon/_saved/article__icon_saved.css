@@ -1,0 +1,4 @@
+.article__icon_saved {
+  -webkit-mask: url(../../../../images/saved-flag.svg);
+  background-color: #2f71e5;
+}
