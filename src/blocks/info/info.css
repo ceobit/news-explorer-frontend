@@ -1,8 +1,0 @@
-@import url(__title/info__title.css);
-@import url(__text/info__text.css);
-@import url(__description/info__description.css);
-
-.info {
-  width: 100%;
-  background: #fff;
-}
