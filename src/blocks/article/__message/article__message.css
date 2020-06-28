@@ -1,5 +1,7 @@
+@import url(_is-opened/article__message_is-opened.css);
+@import url(_is-closed/article__message_is-closed.css);
+
 .article__message {
-  display: inline-block;
   position: absolute;
   padding: 0 10px;
   background-color: #fff;
@@ -18,4 +20,5 @@
   left: calc(100% - 250px);
   top: 24px;
   text-align: center;
+  z-index: 100;
 }

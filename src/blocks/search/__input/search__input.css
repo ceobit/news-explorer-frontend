@@ -24,10 +24,22 @@
   outline: none;
 }
 
-.search__input:valid {
-  color: #000;
+.search__input:valid:not(:placeholder-shown) {
+  opacity: 1;
+  border-bottom: 1px solid rgb(0, 0, 0);
   outline: none;
 }
+
+.search__input:invalid:not(:placeholder-shown) {
+  border-color: #df4b41;
+  margin: 0;
+}
+
+.search__input:invalid:not(:placeholder-shown) + .search__error {
+  display: block;
+  margin: 3px 0 12px 0;
+}
+
 
 @media screen and (max-width: 1023px) {
   .search__input {

@@ -1,3 +1,6 @@
+@import url(_is-opened/button_is-opened.css);
+@import url(_is-closed/button_is-closed.css);
+
 .button {
   cursor: pointer;
   outline: none;
