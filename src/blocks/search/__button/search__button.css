@@ -1,19 +1,21 @@
+@import url(./_valid/search__button_valid.css);
+
 .search__button {
   position: absolute;
   top: 0;
   left: calc(100% - 168px);
-  background: #2f71e5;
   box-shadow: 0 5px 15px rgba(14, 26, 57, 0.2);
-  border: 1px solid #2f71e5;
+  border: 1px solid #e6e8eb;
   border-radius: 100px;
   font-family: 'Roboto',  Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  color: #fff;
   width: 168px;
   height: 64px;
+  color: #b6bcbf;
+  background: #e6e8eb;
 }
 
 @media screen and (max-width: 1023px) {

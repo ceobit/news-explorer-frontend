@@ -8,6 +8,7 @@
   left: calc(100% - 64px);
   top: 24px;
   border-radius: 10px;
+  z-index: 100;
 }
 
 .article__button:hover .article__icon_delete {
@@ -33,6 +34,4 @@
   -webkit-mask-size: cover;
 }
 
-.article__button:focus {
 
-}

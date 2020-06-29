@@ -1,6 +1,7 @@
 # "news-explorer" - Сервис поиска новостей
 
-v.01.2
+v.02 Добавлен JavaScript
+Версия для чекпоинта
 
 ## Фронтенд дипломного проекта Яндекс Практикум на курсе "Веб-разработка"
 https://ceobit.github.io/news-explorer-frontend
@@ -33,7 +34,7 @@ https://ceobit.github.io/news-explorer-frontend
 
 ### Используемые технологии
 
-CSS, HTML, Webpack, Git
+CSS, HTML, Webpack, Git, JavaScript
 
 
 

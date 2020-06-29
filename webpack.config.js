@@ -17,6 +17,7 @@ module.exports = {
     filename: '[name]/[name].[contenthash].js',
     path: path.resolve(__dirname, 'dist')
   },
+  devtool: "source-map",
   plugins: [
     new HTMLWebpackPlugin({
       inject: true,

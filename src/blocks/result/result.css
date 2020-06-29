@@ -6,8 +6,10 @@
 @import url(__searching/result__searching.css);
 @import url(__button/result__button.css);
 @import url(__found/result__found.css);
+@import url(__error/result__error.css);
 
 .result {
   margin: 0 auto;
   background: #F5F6F7;
+  width: 100%;
 }

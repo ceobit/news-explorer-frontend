@@ -1,4 +1,6 @@
+@import url(_is-closed/nav-container__arrow_is-closed.css);
+@import url(_is-opened/nav-container__arrow_is-opened.css);
+
 .nav-container__arrow {
-  display: inline-block;
   padding-left: 6px;
 }

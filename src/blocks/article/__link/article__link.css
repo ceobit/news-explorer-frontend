@@ -1,0 +1,5 @@
+.article__link {
+  text-decoration: none;
+  color: #1a1b22;
+  z-index: 90;
+}

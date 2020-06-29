@@ -12,7 +12,7 @@
 </head>
 <body>
 <main class="page">
-  <div class="mobil-menu mobil-menu_is-opened">
+  <div class="mobil-menu">
     <header class="header">
       <div class="header__container">
         <p class="header__logo header__logo_white">NewsExplorer</p>
@@ -23,106 +23,35 @@
       <nav class="header__nav-container nav-container header_is-opened">
         <a href="index.html" class="nav-container__link nav-container__link_active">Главная</a>
         <a href="account.html" class="nav-container__link nav-container__link_hidden">Сохраненные статьи</a>
-        <button class="button nav-container__link nav-container__link_auth">Грета
-          <img src="<%=require('../../images/arrow_white.png').default%>" alt="menu"
-               class="nav-container__icon nav-container__arrow">
-        </button>
+        <button class="button nav-container__link nav-container__link_auth">Авторизоваться</button>
+        <button class="button nav-container__link nav-container__link_logout nav-container__link_is-closed"></button>
+        <img src="<%=require('../../images/arrow.png').default%>" alt="arrow logout" class="nav-container__arrow_is-closed">
       </nav>
     </header>
   </div>
-
   <header class="header header_black">
     <div class="header__container">
       <p class="header__logo header__logo_black">NewsExplorer</p>
       <nav class="header__nav-container nav-container">
         <a href="index.html" class="nav-container__link nav-container__link_black">Главная</a>
-        <a href="account.html" class="nav-container__link nav-container__link_active nav-container__link_black">Сохраненные
-          статьи</a>
-        <button class="button nav-container__link nav-container__link_auth nav-container__link_black">Грета
-          <img src="<%=require('../../images/arrow.png').default%>" alt="menu"
-               class="nav-container__icon nav-container__arrow">
-        </button>
+        <a href="account.html" class="nav-container__link nav-container__link_active nav-container__link_black">Сохраненные статьи</a>
+        <button class="button nav-container__link nav-container__link_auth nav-container__link_black">Авторизоваться</button>
+        <button class="button nav-container__link nav-container__link_logout nav-container__link_is-closed nav-container__link_black nav-container__link_logout_black"></button>
       </nav>
-      <button class="header__menu menu header_is-opened">
-        <img src="<%=require('../../images/menu_black.svg').default%>" alt="menu" class="menu__icon">
+      <button class="button header__menu header_is-opened">
+        <img src="<%=require('../../images/menu_black.svg').default%>" alt="menu" class="button__icon">
       </button>
     </div>
   </header>
   <section class="info">
     <h2 class="info__title">Сохранённые статьи</h2>
     <div class="info__description description">
-      <h3 class="title">Грета, у вас 5 сохранённых статей</h3>
-      <p class="info__text text">По ключевым словам: <span class="info__text_bold">Природа, Тайга и 2 другим</span></p>
+      <h3 class="title"></h3>
+      <p class="info__text text">По ключевым словам: <span class="info__text_bold"></span></p>
     </div>
   </section>
   <section class="saved-articles">
     <div class="articles">
-      <div class="article">
-        <img src="<%=require('../../images/article_image.png').default%>" class="article__image" alt="article image">
-        <div class="article__category">Природа</div>
-        <!--  класс article__message добавить при необходимости для демонстрации. Поведение будет реализовано в JS -->
-        <!--      <div class="article__message">Убрать из сохраненных</div>-->
-        <button class="button article__button">
-          <i class="article__icon article__icon_delete"></i>
-        </button>
-        <div class="article__content">
-          <div class="article__date">31 мая, 2020</div>
-          <h3 class="article__title">Национальное достояние – парки</h3>
-          <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
-            складываться
-            система национальных парков – охраняемых территорий,
-            где и сегодня каждый может приобщиться к природе.</p>
-          <p class="article__source">Лента.ру</p>
-        </div>
-      </div>
-      <div class="article">
-        <img src="<%=require('../../images/article_image.png').default%>" class="article__image" alt="article image">
-        <div class="article__category">Природа</div>
-        <button class="button article__button">
-          <i class="article__icon article__icon_delete"></i>
-        </button>
-        <div class="article__content">
-          <div class="article__date">31 мая, 2020</div>
-          <h3 class="article__title">Национальное достояние – парки</h3>
-          <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
-            складываться
-            система национальных парков – охраняемых территорий,
-            где и сегодня каждый может приобщиться к природе.</p>
-          <p class="article__source">Лента.ру</p>
-        </div>
-      </div>
-      <div class="article">
-        <img src="<%=require('../../images/article_image.png').default%>" class="article__image" alt="article image">
-        <div class="article__category">Природа</div>
-        <button class="button article__button">
-          <i class="article__icon article__icon_delete"></i>
-        </button>
-        <div class="article__content">
-          <div class="article__date">31 мая, 2020</div>
-          <h3 class="article__title">Национальное достояние – парки</h3>
-          <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
-            складываться
-            система национальных парков – охраняемых территорий,
-            где и сегодня каждый может приобщиться к природе.</p>
-          <p class="article__source">Лента.ру</p>
-        </div>
-      </div>
-      <div class="article">
-        <img src="<%=require(`../../images/article_image.png`).default%>" class="article__image" alt="article image">
-        <div class="article__category">Природа</div>
-        <button class="button article__button">
-          <i class="article__icon article__icon_delete"></i>
-        </button>
-        <div class="article__content">
-          <div class="article__date">31 мая, 2020</div>
-          <h3 class="article__title">Национальное достояние – парки</h3>
-          <p class="article__text">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала
-            складываться
-            система национальных парков – охраняемых территорий,
-            где и сегодня каждый может приобщиться к природе.</p>
-          <p class="article__source">Лента.ру</p>
-        </div>
-      </div>
     </div>
   </section>
   <footer class="footer">
@@ -145,5 +74,23 @@
     </div>
   </footer>
 </main>
+<template class="article_template">
+  <div class="article" data-id>
+    <div class="article__message article__message_is-closed">Убрать из сохраненных</div>
+    <button class="button article__button">
+      <i class="article__icon article__icon_delete"></i>
+    </button>
+    <a class="article__link">
+      <div class="article__category"></div>
+      <img class="article__image" alt="article image">
+      <div class="article__content">
+        <div class="article__date"></div>
+        <h3 class="article__title"></h3>
+        <p class="article__text"></p>
+        <p class="article__source"></p>
+      </div>
+    </a>
+  </div>
+</template>
 </body>
 </html>

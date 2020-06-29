@@ -1,5 +1,13 @@
 .article__image {
   width: 100%;
-  height: 47.22%;
+  height: 270px;
   border-radius: 15px 15px 0 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .article__image {
+    width: 100%;
+    height: 350px;
+    border-radius: 15px 15px 0 0;
+  }
 }
