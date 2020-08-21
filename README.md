@@ -1,25 +1,15 @@
-# "news-explorer" - Сервис поиска новостей
+# "news-explorer" - News search service
 
-v.02 Добавлен JavaScript
-Версия для чекпоинта
-
-## Фронтенд дипломного проекта Яндекс Практикум на курсе "Веб-разработка"
+## Frontend of the diploma project Yandex Practicum on the course "Web Development"
 https://ceobit.github.io/news-explorer-frontend
 
-### Возможности сервиса:
+### Service features:
 <ul>
-<li>Регистрация пользователя</li>
-<li>Авторизация пользователя</li>
-<li>Поиск статей по ключевому с помощью API стороннего сервиса</li>
-<li>Сохранение статей в личном кабинете</li>
-<li>Удаление статей из личного кабинета</li>
-</ul>
-
-В рамках этапа инфраструктура и верстка реализовано:
-<ul>
-<li>Настроен Webpack для двухстраничного приложения</li>
-<li>Верстка сайта</li>
-<li>Адаптивная верстка сайта</li>
+<li>User registration</li>
+<li>User authorization</li>
+<li>Search articles by keyword using a third-party service API</li>
+<li>Saving articles in your personal account</li>
+<li>Removing articles from your personal account</li>
 </ul>
 
 ### Запуск проекта
@@ -35,6 +25,3 @@ https://ceobit.github.io/news-explorer-frontend
 ### Используемые технологии
 
 CSS, HTML, Webpack, Git, JavaScript
-
-
-
