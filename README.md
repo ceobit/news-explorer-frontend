@@ -1,6 +1,5 @@
 # "news-explorer" - News search service
 
-## Frontend of the diploma project Yandex Practicum on the course "Web Development"
 https://ceobit.github.io/news-explorer-frontend
 
 ### Service features:
